@@ -8,4 +8,5 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
-  mapper-locations: classpath:**/dao/*/*.xml*
+  #XML映射文件的位置 目录层级一定要一样
+  mapper-locations: classpath:/mapper/*.xml*
